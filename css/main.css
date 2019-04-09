@@ -75,6 +75,12 @@ header {
         header .header__main-area .header__main-area__right .header__main-area-logout-button:hover .header__main-area-logout-text {
           color: #0aadb5; }
 
+#logout-block.shown {
+  display: flex; }
+
+#logout-block.hidden {
+  display: none; }
+
 #login-id {
   font-weight: bold; }
 
@@ -155,7 +161,7 @@ header {
   border: 1px solid #ccc; }
   #predicts td {
     width: 40px;
-    height: 35px;
+    height: 50px;
     border: 1px solid #ccc;
     padding: 5px;
     vertical-align: middle;
@@ -167,6 +173,9 @@ header {
     #predicts td.red {
       background-color: #c72424;
       color: #eee; }
+    #predicts td.yellow {
+      background-color: #f97e27;
+      color: #eee; }
     #predicts td.header {
       padding: 0 15px;
       background-color: #e0e0e0; }
@@ -175,7 +184,6 @@ header {
 
 #period,
 #sensor-menu {
-  width: 420px;
   height: 70px;
   margin: 20px 0;
   background-color: #fff;
@@ -258,4 +266,21 @@ header {
 
 #chart {
   width: 600px;
-  height: 400px; }
+  height: 450px; }
+
+#login-page.hidden,
+#reactor-page.hidden {
+  display: none; }
+
+#login-page.shown,
+#reactor-page.shown {
+  display: flex; }
+
+.header__main-area-worktime {
+  display: inline-block;
+  margin: 21px;
+  font-size: 18px; }
+  .header__main-area-worktime div {
+    display: inline-block; }
+  .header__main-area-worktime .reactor-worktime {
+    font-weight: bold; }

@@ -19,9 +19,14 @@
             <div class="header__main-area__left">
                 <div class="header__main-area-logo_ru"></div>
                 <div class="header__main-area-description_ru"></div>
+
+                <div class="header__main-area-worktime">
+                    <div class="description">время работы реактора:</div>
+                    <div id="reactor-worktime" class="reactor-worktime">14 часов</div>
+                </div>
             </div>
 
-                <div class="header__main-area__right">
+                <div id="logout-block" class="header__main-area__right">
 
                     <div class="header__main-area__columns">
                         <div class="header__main-area-id">
@@ -39,27 +44,30 @@
     </header>
 
 
-    <!-- GUEST PAGE
-    <div id="login-page">
+    <div id="login-page" class="main-view hidden">
         <div id="login-popup">
             <div class="lock-icon"></div>
             <div class="lock-text">Доступ запрещён.<br>Авторизуйтесь для просмотра.</div>
-            <div class="lock-form">
-                <div class="lock-form__line"></div>
-                <input class="lock-form__input" id="login" type="text" placeholder="Ваш ID">
-                <input class="lock-form__input" id="password" type="password" id="password" placeholder="Пароль">
 
-                <div class="lock-form__button__area">
-                    <button onclick="" class="lock-form__button">Войти</button>
+            <form method="POST" action="http://95.181.226.169:8000/api/login/">
+                <div class="lock-form">
+                    <div class="lock-form__line"></div>
+                    <input class="lock-form__input" name="login" id="login" type="text" placeholder="Ваш ID">
+                    <input class="lock-form__input" name="pass" id="password" type="password" id="password" placeholder="Пароль">
+
+                    <div class="lock-form__button__area">
+                        <button type="submit" class="lock-form__button">Войти</button>
+                    </div>
                 </div>
-            </div>
+            </form>
+
 
         </div>
-    </div>-->
+    </div>
 
-    <div id="reactor-page">
+    <div id="reactor-page" class="main-view hidden">
         <div class="predict-area">
-            <h1 class="title">Прогноз коксования</h1>
+            <h1 class="title">Закоксованность</h1>
             <table id="predicts">
                 <tr>
                     <td class="header">Решётка</td>
@@ -67,63 +75,50 @@
                     <td class="header_react">2</td>
                     <td class="header_react">3</td>
                     <td class="header_react">4</td>
-                    <td class="header_react">Все</td>
                 </tr>
+
                 <tr>
-                    <td class="header">Реактор</td>
-                    <td class="green"></td>
-                    <td class="green"></td>
-                    <td class="green"></td>
-                    <td class="green"></td>
-                    <td class="green">1%</td>
+                    <td class="header">Решётка #0</td>
+                    <td id="grate0-1" class="green"></td>
+                    <td id="grate0-2" class="green"></td>
+                    <td id="grate0-3" class="green"></td>
+                    <td id="grate0-4" class="green"></td>
                 </tr>
-                <tr>
-                    <td class="header">Распределительная решётка</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                </tr>
+
                 <tr>
                     <td class="header">Решётка #1</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
+                    <td id="grate1-1" class="green"></td>
+                    <td id="grate1-2" class="green"></td>
+                    <td class="green"></td>
+                    <td class="green"></td>
                 </tr>
                 <tr>
                     <td class="header">Решётка #4</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="red">92%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
+                    <td id="grate4-1" class="green"></td>
+                    <td id="grate4-2" class="green"></td>
+                    <td id="grate4-3" class="red"></td>
+                    <td id="grate4-4" class="green"></td>
                 </tr>
                 <tr>
                     <td class="header">Решётка #8</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
+                    <td id="grate8-1" class="green"></td>
+                    <td id="grate8-2" class="green"></td>
+                    <td id="grate8-3" class="green"></td>
+                    <td id="grate8-4" class="green"></td>
                 </tr>
                 <tr>
                     <td class="header">Решётка #11</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
+                    <td id="grate11-1" class="green"></td>
+                    <td id="grate11-2" class="green"></td>
+                    <td id="grate11-3" class="green"></td>
+                    <td id="grate11-4" class="green"></td>
                 </tr>
                 <tr>
                     <td class="header">Решётка #12</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
-                    <td class="green">0%</td>
+                    <td id="grate12-1" class="green"></td>
+                    <td id="grate12-2" class="green"></td>
+                    <td class="green"></td>
+                    <td class="green"></td>
                 </tr>
             </table>
 
@@ -132,13 +127,8 @@
 
                 <div class="period__actual-results">
                     <div class="text">Дата и время:</div>
-                    <select class="select-date">
-                        <option>29/03/2019 21:00</option>>
-                        <option>30/03/2019 11:00</option>>
-                        <option>30/03/2019 15:00</option>>
-                        <option>30/03/2019 18:00</option>>
+                    <select onclick="changeDate();" id="select-date" class="select-date">
                     </select>
-                    <button class="update-btn" onclick="updatePeriod();">Обновить</button>
                 </div>
             </div>
 
@@ -149,11 +139,11 @@
             <div id="chart" ><svg></svg></div>
 
             <div id="sensor-menu">
-                <div class="period__current-sensor">Отображены данные <span id="current-sensor">1 счётчика</span></div>
+                <div class="period__current-sensor">Отображены данные <span id="current-sensor">1 датчика</span></div>
 
                 <div class="period__sensors-list">
                     <div class="text">Выбрать датчик:</div>
-                    <select class="select-sensor">
+                    <select onchange="changeSensor();" id="select-sensor" class="select-sensor">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -175,7 +165,6 @@
                         <option>19</option>
                         <option>20</option>
                     </select>
-                    <button class="update-btn" onclick="updatePeriod();">Обновить</button>
                 </div>
             </div>
 

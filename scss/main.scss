@@ -108,6 +108,17 @@ header {
 
 }
 
+#logout-block {
+
+  &.shown {
+    display: flex;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
 
 #login-id {
   font-weight: bold;
@@ -220,7 +231,7 @@ header {
 
   td {
     width: 40px;
-    height: 35px;
+    height: 50px;
     border: 1px solid #ccc;
     padding: 5px;
     vertical-align: middle;
@@ -237,6 +248,11 @@ header {
       color: #eee;
     }
 
+    &.yellow {
+      background-color: #f97e27;
+      color: #eee;
+    }
+
     &.header {
       padding: 0 15px;
       background-color: #e0e0e0;
@@ -250,7 +266,6 @@ header {
 
 #period,
 #sensor-menu {
-  width: 420px;
   height: 70px;
   margin: 20px 0;
   background-color: #fff;
@@ -328,5 +343,31 @@ header {
 
 #chart {
   width: 600px;
-  height: 400px;
+  height: 450px;
+}
+
+#login-page,
+#reactor-page {
+
+  &.hidden {
+    display: none;
+  }
+
+  &.shown {
+    display: flex;
+  }
+
+}
+.header__main-area-worktime {
+  display: inline-block;
+  margin: 21px;
+  font-size: 18px;
+
+  div {
+    display: inline-block;
+  }
+
+  .reactor-worktime {
+    font-weight: bold;
+  }
 }
