@@ -54,7 +54,8 @@ education:
     - degree: Bachelor's Degree in Applied Mathematics and Informatics
       university: Higher School of Economics, Nizhny Novgorod
       time: 2015 - 2019
-      details: Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
+      details: |
+        Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
     - degree: Master's degree in Data Mining
       university: Higher School of Economics, Nizhny Novgorod
       time: 2019 - 
@@ -128,7 +129,7 @@ publications:
     title: Hackathons
     intro: |
       I often participate in hackathons and win prizes as part and leader of "Team Pepe" team.
-      My responsibilities include but not limited to AI models creation, presentation of a product, team management. 
+      My responsibilities include but not limited to AI models creation, product presentation and team management. 
     papers:
       - title: Intel OpenVINO Hackathon (click for habrahabr post)
         link: "https://habr.com/ru/post/486672/"
@@ -141,14 +142,14 @@ publications:
         conference: Visual search of goods and tenders
 
       - title: Sibur Challenge (click for demo)
-        link: "sibur.html"
+        link: "old/sibur.html"
         authors: 3rd place
         conference: Chemical production predictive model
 
       - title: Ifest (2018)
-        link: "sibur.html"
+        link: ""
         authors: 2nd place
-        conference: Chemical production predictive model
+        conference: 
 
 skills:
     title: Skills &amp; Proficiency
