@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Vladimir Kilyazov
-    tagline: Full Stack Developer
+    tagline: Data Science Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -42,18 +42,17 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: About me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Open-minded and hard-working person with 2.5 years experience.
+      I have clear goals and analytical thinking.
+      Experienced and familiar with modern AI/DL spheres.
+      Active participant of hackathons.
 education:
     - degree: Bachelor's Degree in Applied Mathematics and Informatics
       university: Higher School of Economics, Nizhny Novgorod
       time: 2015 - 2019
+        Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
       details: |
         Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
     - degree: Master's degree in Data Mining
@@ -149,7 +148,12 @@ publications:
       - title: Ifest (2018)
         link: ""
         authors: 2nd place
-        conference: 
+        conference: Room type determination based on a photo
+
+      - title: Timebook Hackathon
+        link: "https://nnov.hse.ru/news/218013816.html"
+        authors: 1st place
+        conference: Face detection 
 
 skills:
     title: Skills &amp; Proficiency
