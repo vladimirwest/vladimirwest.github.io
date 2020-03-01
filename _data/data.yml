@@ -54,7 +54,7 @@ education:
     - degree: Bachelor's Degree in Applied Mathematics and Informatics
       university: Higher School of Economics, Nizhny Novgorod
       time: 2015 - 2019
-      details:
+      details: Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
     - degree: Master's degree in Data Mining
       university: Higher School of Economics, Nizhny Novgorod
       time: 2019 - 
@@ -125,26 +125,30 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: Hackathons
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      I often participate in hackathons and win prizes as part and leader of "Team Pepe" team.
+      My responsibilities include but not limited to AI models creation, presentation of a product, team management. 
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Intel OpenVINO Hackathon (click for habrahabr post)
+        link: "https://habr.com/ru/post/486672/"
+        authors: 1st place
+        conference: Speaker&emotion recognition on Raspberry Pi w/ Intel NCS 2
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: TenderHack
+        link: "https://actum.online/177HTEventCard"
+        authors: 3rd place
+        conference: Visual search of goods and tenders
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Sibur Challenge (click for demo)
+        link: "sibur.html"
+        authors: 3rd place
+        conference: Chemical production predictive model
+
+      - title: Ifest (2018)
+        link: "sibur.html"
+        authors: 2nd place
+        conference: Chemical production predictive model
 
 skills:
     title: Skills &amp; Proficiency
