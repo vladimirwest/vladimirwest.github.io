@@ -44,11 +44,11 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      Open-minded and hard-working person with 2.5 years experience.  
-      Experienced and familiar with modern AI/DL spheres.  
+      Enthusiastic person with 2.5 years overall IT experience.  
+      Familiar with modern AI/DL spheres.  
       Lead the team that won Intel OpenVINO hackathon.  
       Proactive team member and creative thinker.  
-      **My key soft skills are:**
+      #### My key soft skills are:
       - Problem-solving  
       - Adaptability  
       - Critical thinking
@@ -149,5 +149,5 @@ skills:
       - name: Raspberry Pi
         level: 55%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
