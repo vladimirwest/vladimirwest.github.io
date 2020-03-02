@@ -57,7 +57,7 @@ education:
         Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
     - degree: Master's degree in Data Mining
       university: Higher School of Economics, Nizhny Novgorod
-      time: 2019 - 
+      time: 2019 - Present
       details:
 experiences:
     - role: Data Science Engineer
@@ -73,8 +73,8 @@ experiences:
       company: Intel, Nizhny Novgorod
       details: |
         Worked in a cross-geo team.
-          - Supported team software development and testing processes.
-          - Collaborated to product porting on Linux systems.
+          - Supported team software development and testing processes
+          - Collaborated to product porting on Linux systems
           - Continuous Integration system management 
 projects:          
     title: Projects
@@ -83,25 +83,13 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Voice messages recognition bot for vk.com
+        link: "https://github.com/vladimirwest/voicebot"
+        tagline: Bot allows to convert any voice messages to text output. (forwarding the message is the only required action)
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Text bot for vk.com
+        link: "https://github.com/vladimirwest/text_bot"
+        tagline: Text bot that sends to users current wearher, traffic jam and much more
 
 publications:
     title: Hackathons
@@ -109,7 +97,7 @@ publications:
       I often participate in hackathons and win prizes as part and leader of "Team Pepe" team.
       My responsibilities include but not limited to AI models creation, product presentation and team management. 
     papers:
-      - title: Intel OpenVINO Hackathon (click for habrahabr post)
+      - title: Intel OpenVINO Hackathon (click for habr post)
         link: "https://habr.com/ru/post/486672/"
         authors: 1st place
         conference: Speaker&emotion recognition on Raspberry Pi w/ Intel NCS 2
