@@ -45,9 +45,10 @@ career-profile:
     title: About me
     summary: |
       Open-minded and hard-working person with 2.5 years experience.  
-      I have clear goals and analytical thinking.  
       Experienced and familiar with modern AI/DL spheres.  
-      Active participant of hackathons.
+      I have clear goals and analytical thinking.  
+      Lead the team that won the Intel OpenVINO hackathon.  
+      An enthusiastic team player and deep creative thinker.
 education:
     - degree: Bachelor's Degree in Applied Mathematics and Informatics
       university: Higher School of Economics, Nizhny Novgorod
@@ -63,10 +64,10 @@ experiences:
       time: 2019 - Present
       company: Harman, Nizhny Novgorod
       details: |
-          - Time series prediction
-          - Pattern recognition
-          - Computer Vision
-          - Demo preparation
+          - Creation and training of time series prediction models
+          - Unstructured data analysis
+          - Research on detection and recognition computer vision models 
+          - Preparation of demo on embedded devices
     - role: QA/DevOps Intern
       time: 2017 - 2019
       company: Intel, Nizhny Novgorod
@@ -74,13 +75,14 @@ experiences:
         Worked in a cross-geo team.
           - Supported team software development and testing processes
           - Collaborated to product porting on Linux systems
-          - Continuous Integration system management 
+          - Continuous Integration system establishment 
+          - Take part in team management
 projects:          
     title: Projects
     assignments:    
       - title: Bachelor's thesis — ASR methods research (using DeepSpeech to recognize speech in Russian language)
         link: "https://github.com/vladimirwest/vladimirwest.github.io/blob/master/old/pp.docx"
-        tagline: I focused on development of the Russian language speech recognition system based on DeepSpeech architecture. The system was trained on a custom speech dataset which was collected from YouTube. The language model was developed based on corpus of popular articles in Russian version of Wikipedia. The resulting system was tested on a dataset consisting of audio recordings of Russian literature recorded by more than 25 different speakers, which is known as voxforge.org dataset. The best WER demonstrated by my approach currently equals to 15.8% with language model and 27% without language model usage, but could be improved with bigger dataset.
+        tagline: Development of the Russian language speech recognition system based on DeepSpeech architecture. The best WER demonstrated by my approach currently equals to 15.8% with language model usage, but could be improved with bigger dataset.
     
       - title: Voice messages recognition bot for vk.com
         link: "https://github.com/vladimirwest/voicebot"
@@ -122,19 +124,19 @@ publications:
         conference: Face detection 
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Hard Skills &amp; Proficiency
 
     toolset:
       - name: Python (AI libraries stack)
         level: 85%
 
       - name: Operating Systems 
-        level: 85%
-
-      - name: Bash
-        level: 75%
+        level: 80%
 
       - name: ML & DL
+        level: 75%
+
+      - name: Bash
         level: 75%
 
       - name: Algorithms
