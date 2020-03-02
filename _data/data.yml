@@ -52,7 +52,6 @@ education:
     - degree: Bachelor's Degree in Applied Mathematics and Informatics
       university: Higher School of Economics, Nizhny Novgorod
       time: 2015 - 2019  
-        Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
       details: |
         Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
     - degree: Master's degree in Data Mining
@@ -83,6 +82,11 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
+    
+      - title: Bachelor's thesis — ASR methods research (using DeepSpeech to recognize speech in Russian language)
+        link: "https://github.com/vladimirwest/vladimirwest.github.io/blob/master/old/pp.docx"
+        tagline: I focused on development of the Russian language speech recognition system based on DeepSpeech architecture. The system was trained on a custom speech dataset which was collected from YouTube. The language model was developed based on corpus of popular articles in Russian version of Wikipedia. The resulting system was tested on a dataset consisting of audio recordings of Russian literature recorded by more than 25 different speakers, which is known as voxforge.org dataset. The best WER demonstrated by my approach currently equals to 15.8% with language model and 27% without language model usage, but could be improved with bigger dataset.
+    
       - title: Voice messages recognition bot for vk.com
         link: "https://github.com/vladimirwest/voicebot"
         tagline: Bot allows to convert any voice messages to text output. (forwarding the message is the only required action)
@@ -94,7 +98,7 @@ projects:
 publications:
     title: Hackathons
     intro: |
-      I often participate in hackathons and win prizes as part and leader of "Team Pepe" team.
+      I often participate in and win hackathons as a leader of Team Pepe.  
       My responsibilities include but not limited to AI models creation, product presentation and team management. 
     papers:
       - title: Intel OpenVINO Hackathon (click for habr post)
@@ -126,7 +130,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python
+      - name: Python (with libraries)
         level: 85%
 
       - name: Operating Systems 
@@ -135,14 +139,14 @@ skills:
       - name: Bash
         level: 75%
 
-      - name: Machine learning, Deep Learning
+      - name: ML & DL
         level: 75%
 
-      - name: Problem solving
+      - name: Algorithms
         level: 75%
 
       - name: Raspberry Pi
-        level: 70%
+        level: 55%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
