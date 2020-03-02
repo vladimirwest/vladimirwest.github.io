@@ -77,12 +77,7 @@ experiences:
           - Continuous Integration system management 
 projects:          
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-    
+    assignments:    
       - title: Bachelor's thesis — ASR methods research (using DeepSpeech to recognize speech in Russian language)
         link: "https://github.com/vladimirwest/vladimirwest.github.io/blob/master/old/pp.docx"
         tagline: I focused on development of the Russian language speech recognition system based on DeepSpeech architecture. The system was trained on a custom speech dataset which was collected from YouTube. The language model was developed based on corpus of popular articles in Russian version of Wikipedia. The resulting system was tested on a dataset consisting of audio recordings of Russian literature recorded by more than 25 different speakers, which is known as voxforge.org dataset. The best WER demonstrated by my approach currently equals to 15.8% with language model and 27% without language model usage, but could be improved with bigger dataset.
@@ -130,7 +125,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python (with libraries)
+      - name: Python (AI libraries stack)
         level: 85%
 
       - name: Operating Systems 
@@ -143,7 +138,7 @@ skills:
         level: 75%
 
       - name: Algorithms
-        level: 75%
+        level: 65%
 
       - name: Raspberry Pi
         level: 55%
