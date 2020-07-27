@@ -59,10 +59,6 @@ education:
       time: 2015 - 2019  
       details: |
         Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
-    - degree: Master's degree in Data Mining
-      university: Higher School of Economics, Nizhny Novgorod
-      time: 2019 - Present
-      details:
 experiences:
     - role: Data Science Engineer
       time: 2019 - Present
