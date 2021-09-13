@@ -44,7 +44,7 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      Enthusiastic person with 2.5 years overall IT experience.  
+      Enthusiastic person with 4 years overall IT experience.  
       Familiar with modern AI/DL spheres.  
       Lead the team that won Intel OpenVINO hackathon.  
       Proactive team member and creative thinker.  
@@ -61,7 +61,15 @@ education:
         Thesis "ASR methods research (using DeepSpeech to recognize speech in Russian language)"
 experiences:
     - role: Data Science Engineer
-      time: 2019 - Present
+      time: 2020 - Present
+      company: Petcognito
+      details: |
+          - Creation and training of DL models
+          - Establishment of models training pipeline
+          - Model launch on mobile device
+          - Development of REST service for model demo
+    - role: Data Science Engineer
+      time: 2019 - 2020
       company: Harman, Nizhny Novgorod
       details: |
           - Creation and training of time series prediction models
